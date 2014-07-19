@@ -22,27 +22,22 @@
     <!-- endbuild -->
   </head>
   <body>
-
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-
-        <li>Sass</li>
-
-
-        <li>Modernizr</li>
-
-
-        <li>Bourbon & Neat</li>
-
-
-        <li>UnderscoreJS</li>
-
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
+    <div id='intro'>
+        <div id='fav'>What's your favorite album?</div>
+        <form id='album'><input id='input' type='text' placeholder='Enter text here'></form>
+        <div id='yee'></div><br>
+    </div>
+    <div class='album'>
+        <img src='http://cps-static.rovicorp.com/3/JPG_400/MI0001/684/MI0001684410.jpg' width='300px' height='300px'>
+    </div>
+    <div class='album'>
+        <img src='http://upload.wikimedia.org/wikipedia/en/b/b8/CureDisintegration.jpg' width='300px' height='300px'>
+    </div>
+    <div class='album'>
+        <img src='http://www.thecrazydutchmansblog.nl/wp/wp-content/uploads/2014/03/timeless-1.jpeg' width='300px' height='300px'>
+    </div>
+    <div class='album'>
+        <img src='http://upload.wikimedia.org/wikipedia/en/6/64/Black_Sabbath_-_Paranoid.jpg' width='300px' height='300px'>
     </div>
 
     <!-- build:js scripts/vendor.js -->
@@ -51,9 +46,8 @@
     <script src="../bower_components/underscore/underscore.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src='scripts/main.js'></script>
+    <!-- endbuild -->
 </body>
 </html>
