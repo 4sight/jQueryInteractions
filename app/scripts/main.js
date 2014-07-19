@@ -7,3 +7,7 @@ $('.album').hover(function(){
 $('#input').keydown(function(){
 	$('#yee').append('yee');
 });
+
+$('.album').click(function(){
+	$(this).fadeOut('slow', function(){});
+});
