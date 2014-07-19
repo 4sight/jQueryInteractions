@@ -10,4 +10,17 @@ $('#input').keydown(function(){
 
 $('.album').click(function(){
 	$(this).fadeOut('slow', function(){});
+	alert('Bye!');
 });
+
+jQuery(document).ready(function() {
+	jQuery('#spooky').hide();
+});
+
+$('#fav').one('click', function() {
+  alert("Everybody gets one...");
+});
+
+$('#yee').click(function(){
+  alert($('#yee').width());
+}); 
