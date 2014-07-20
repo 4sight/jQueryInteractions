@@ -18,9 +18,25 @@ jQuery(document).ready(function() {
 });
 
 $('#fav').one('click', function() {
+	$(this).css('color', 'red');
   alert("Everybody gets one...");
 });
 
 $('#yee').click(function(){
-  alert($('#yee').width());
-}); 
+	$(this).animate({fontSize:"+=30px"});
+  alert('This element is ' + $('#yee').width() + ' pixels wide.');
+  alert('This element is ' + $('#yee').height() + ' pixels high.');
+});
+
+$('#input').dblclick(function(){
+	alert('what r u even trying to do tho');
+	$(this).slideUp('slow');
+});
+
+$('#favCopy').html($('#fav').text());
+
+$('#grow').mouseenter(function(){
+	$(this).animate({
+			height:'+=50'
+	})
+});

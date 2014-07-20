@@ -34,6 +34,10 @@ body {
   display: inline;
 }
 
+#favCopy {
+  color: #fafafa;
+}
+
 .album {
   display: inline;
   margin: 0px;
@@ -42,4 +46,12 @@ body {
 
 .faded {
   opacity: 0.4;
+}
+
+#grow {
+  background: grey;
+  width: 1212px;
+  height: 2px;
+  position: relative;
+  top: -17px;
 }
